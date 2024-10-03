@@ -10,3 +10,9 @@
     display: flex;
     gap: 5px;
 }
+
+.componentName {
+    background-color: var(--component-background);
+    color: var(--text-color);
+    padding: 3px;
+}

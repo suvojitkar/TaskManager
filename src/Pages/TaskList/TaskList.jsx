@@ -31,7 +31,7 @@ const TaskList = () => {
             <button className="pointer-cursor" onClick={(e) => onEditTaskHandler(e, task.id)}> ✏️ </button>
         </div>
         <div style={{ width: "calc(100% - 100px)" }}> {task.description} </div> <br />
-        <div className="component"> <span style={{ backgroundColor: "green", padding: "3px" }}>{task.component.toUpperCase()}</span> </div> <br />
+        <div className="component"> <span className="componentName">{task.component.toUpperCase()}</span> </div> <br />
         <div> ID-{task.id} </div> <br />
         <div> Remaining Days: {task.days} </div> <br />
         <Progress value={task.progress} />  

@@ -1,0 +1,18 @@
+[data-theme="dark"] {
+    --body-background: black;
+    --body-text: white;
+    --component-background : white;
+    --text-color: black;
+}
+
+[data-theme="light"] {
+    --component-background : black;
+    --text-color: white;
+}
+
+
+
+body {
+    background-color: var(--body-background);
+    color: var(--body-text);
+}
